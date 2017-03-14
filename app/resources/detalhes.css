@@ -1,0 +1,365 @@
+#container {
+       
+float:left; 
+    
+width:1366px;
+    
+height:768px;
+
+}
+
+
+
+#galeria{
+
+margin:15px 15px 15px 15px;   
+
+float:left;
+    
+width:305px;
+    
+height:258px;
+
+}
+
+
+
+.galeria {
+    
+float:left;
+    
+width:300px;
+    
+height:255px;
+    
+border: 3px solid #c9c9c9;
+    
+border-radius: 3px;
+
+}
+
+
+
+#objeto {
+
+     
+margin:15px 15px 15px 15px;    
+
+width:350px;
+
+height: 260px;
+    
+float:left;
+
+}
+
+
+
+
+.titulo {
+    
+float:left;
+    
+width:350px;
+    
+height: 30px;
+    
+border: 1px solid #c9c9c9;
+   
+border-radius: 3px;
+
+}
+
+
+
+.descricao {    
+   
+float:left;
+    
+width:350px;
+    
+height: 120px;
+    
+margin-top:15px; 
+    
+border: 1px solid #c9c9c9;
+    
+border-radius: 3px;
+
+}
+
+
+
+.marca {    
+    
+float:left;
+    
+width:168px;
+    
+height: 30px;
+    
+margin-top: 15px;
+    
+font-weight: bold;   
+    
+border: 1px solid #c9c9c9;
+   
+ border-radius: 3px;
+
+}
+
+
+
+.cor {    
+    
+float:right;
+    
+width:168px;
+    
+height: 30px; 
+    
+margin-top: 15px;      
+font-weight: bold;
+    
+border: 1px solid #c9c9c9;
+   
+border-radius: 3px;
+}
+
+
+
+.tamanho {    
+    
+float:left;
+    
+width:168px;
+    
+height: 30px; 
+    
+margin-top: 15px;
+    
+font-weight: bold;
+    
+border: 1px solid #c9c9c9;
+    
+border-radius: 3px;
+
+}
+
+
+
+.condicao {    
+    
+float:right;
+    
+width:168px;
+    
+height: 30px; 
+    
+margin-top: 15px;
+
+font-weight: bold;
+    
+border: 1px solid #c9c9c9;
+    
+border-radius: 3px;
+
+}
+
+
+
+#inf{
+    
+float:left;
+    
+width:700px;
+    
+height:460px;
+
+}
+
+
+
+#doador{
+    
+float:left;
+    
+width:700px;
+   
+height:150px;
+
+}
+
+
+
+
+.dFoto{
+    
+float:left;
+    
+width:75px;
+    
+height:75px;
+    
+margin-top:39px;
+   
+margin-left:15px;  
+    
+border-radius: 100px;
+
+}
+
+
+
+.dNome{
+    
+float:left;
+    
+width:413px;
+    
+height: 30px;
+    
+margin-top:62px;
+    
+margin-left: 15px;
+    
+border: 1px solid #c9c9c9;
+    
+border-radius: 3px;
+
+}
+
+
+
+.solicitar {    
+    
+float:left;
+    
+margin-top:62px;
+margin-left: 15px;
+     
+
+}
+
+
+
+#usuario{
+    
+float:left;
+    
+width:700px;
+    
+height:150px;
+    
+margin-top:62px;
+
+}
+
+
+
+.uFoto{
+    
+float:left;
+    
+width:75px;
+    
+height:75px;
+
+margin-left:15px;  
+    
+border-radius: 100px;
+
+}
+
+
+
+.uMensagem{
+    
+float:left;
+   
+width:595px;
+    
+height: 83px;
+    
+margin-left: 15px;
+ 
+}
+
+
+
+.enviar{
+    
+float:right;
+    
+margin-top:69px; 
+    
+margin-left: 15px;   
+
+}
+
+
+
+.ajuste{
+    
+padding:3px;
+    
+margin-top: 10px;
+    
+text-align: center;
+
+}
+
+.ajuste2{
+    
+padding:3px;
+
+}
+
+.nome{
+    
+margin-top: 7px;
+    
+font-size:16px;
+   
+font-weight: bold;
+    
+padding: 3px;
+
+}
+
+
+.cFoto{
+    
+float:left;
+    
+width:75px;
+    
+height:75px;
+        
+margin-left:15px;  
+    
+border-radius: 100px;
+
+margin-top: 4px;
+
+}
+
+.cMensagem{
+    
+float:left;
+    
+width:522px;
+    
+height: 83px;
+    
+margin-left: 15px;
+
+
+}
+
+
+#comentarios{
+   
+   float:left;
+   
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bem-vindo ao Dadivar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap -->
+    <link href="inicial/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Estilo Próprio -->
+    <link href="inicial/css/style.css" rel="stylesheet">
+    
+    <!-- Fonts Google -->
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="inicial/img/favicon.png"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>  
+
+  <body>
+    <div class="container-fluid">
+      <div class="menu-dadivar">
+        <nav class="navbar navbar-inner navbar-fixed-top" id="navbar-menu">
+          <a class="navbar-brand" href="index2.php"><img src="inicial/img/logo.png"></a>
+          <div class="collapse navbar-collapse" id="navbar-collapse-3">
+            <ul class="nav navbar-nav navbar-right navbar-dadivar">
+              <li><a href="#bemvindo">Bem-vindo</a></li>
+              <li><a generator="adianti" href="index.php?class=LoginForm">Entrar</a></li>
+              <li><a generator="adianti" href="index.php?class=CadastroFormStep1">Cadastrar-se</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <span id="bemvindo"></span>
+
+      <div class="jumbotron">
+        <a href="#conheca"><button class="btn-conheca">CONHEÇA</button></a>
+      </div>
+    </div>
+    
+    <div class="container align-center">
+      
+      <div id="conheca"></div>
+      <div class="row margin-top-sep-content valign-center-content">
+        <div class="col-md-6">
+          <h1 class="titulo">CONHEÇA</h1>
+          <p class="texto">
+            Dadivar é um ambiente que tem o intuito de conseguir maior 
+            durabilidade de objetos distintos, através do reúso por meio de 
+            doações via internet, ou seja, muitas pessoas possuem objetos que não 
+            usam ou até mesmo que nunca usaram, que tal se esses objetos ao invés 
+            de descartados ao meio ambiente, pudessem ser utilizados por pessoas 
+            que os acham úteis.
+          </p>
+          <a href="#facil"><button class="btn-inverse">VEJA COMO É FÁCIL</button></a>
+        </div>
+        <div class="col-md-6"> 
+          <img src="inicial/img/foto-ilustrativa.jpg" width="100%"/>
+        </div>
+      </div>
+      
+      <div id="facil"></div>
+      <div class="row margin-top-sep-content">
+        <h1 class="titulo">VEJA COMO É FÁCIL</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="titulo">1º</h1>
+          <p class="texto">
+            Cadastre-se clicando 
+            <a generator="adianti" href="index.php?class=CadastroFormStep1">aqui</a>,
+            preencha os campos, aguarde o SMS com o código de verificação e
+            confirme sua conta.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h1 class="titulo">2º</h1>
+          <p class="texto">
+            Agora que você já está com sua conta ativa, entre nela clicando
+            <a generator="adianti" href="index.php?class=LoginForm">aqui</a>,
+            preencha celular, senha e selecione um idioma.
+          </p>
+        </div>
+        <div class="col-md-12">
+          <h1 class="titulo">3º</h1>
+          <p class="texto">
+            Com acesso a área de usuário você pode visualizar o catálogo de objetos,
+            conversar com outros usuários, visualizar o andamento das doações
+            solicitadas, enviar opinião para nossa equipe, publicar objetos e 
+            também verificar seu status.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer align-center margin-top-sep-content">
+      <div class="container-fluid">
+        <p>VISITAS ÚNICAS</p>
+        <p>{visitas}</p>
+        <p>© Dadivar 2016 - Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="inicial/js/bootstrap.min.js"></script>
+  </body>
+</html>
